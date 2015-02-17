@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"  
-      xmlns:h="http://java.sun.com/jsf/html"  
-      xmlns:f="http://java.sun.com/jsf/core"  
-      xmlns:ui="http://java.sun.com/jsf/facelets"
-      xmlns:p="http://primefaces.org/ui">  
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"  
+                xmlns:h="http://java.sun.com/jsf/html"  
+                xmlns:f="http://java.sun.com/jsf/core"  
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui" template="/templates/default/main.xhtml">
+    <ui:define name="content">                        
+        <h1 class="page-header "> <i class="fa fa-tachometer"></i> Dashboard</h1>
+    </ui:define>
+</ui:composition>        
 
-    <ui:composition template="/templates/default/main.xhtml">
-        <ui:define name="content">                        
-            <h1 class="page-header "> <i class="fa fa-tachometer"></i> Dashboard</h1>
-        </ui:define>
-    </ui:composition>        
-
-</html>  
